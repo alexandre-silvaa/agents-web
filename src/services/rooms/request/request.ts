@@ -1,6 +1,4 @@
-export type IGetRoomsRequest = Array<{
-  id: string;
+export interface ICreateRoomRequest {
   name: string;
-  createdAt: string;
-  questionsCount: number;
-}>;
+  description: string;
+}
