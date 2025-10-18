@@ -7,3 +7,5 @@ export class RoomsService {
     return data;
   }
 }
+
+export const roomsService = new RoomsService();
